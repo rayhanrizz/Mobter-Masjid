@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3b5998"
+    tools:context=".menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/msjd"
+            android:layout_marginLeft="80dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MASJIDKU"
+            android:textSize="24dp"
+            android:fontFamily="monospace"
+            android:textColor="#FFF"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+                <Button
+                    android:id="@+id/identitas_masjid"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Identitas Masjid"
+                    android:background="@drawable/btn"
+                    android:layout_marginTop="20dp"/>
+
+                <Button
+                    android:id="@+id/sholat"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Jadwal Sholat"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/btn"/>
+
+                <Button
+                    android:id="@+id/marquee"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Marquee"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/btn"/>
+
+                <Button
+                    android:id="@+id/pengumuman"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Pengumuman Masjid"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/btn"/>
+
+                <Button
+                    android:id="@+id/slideshow"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Slideshow"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/btn"/>
+
+                <Button
+                    android:id="@+id/tagline"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Tagline"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/btn"
+                    android:layout_marginBottom="20dp"/>
+
+        </LinearLayout>
+
+</LinearLayout>

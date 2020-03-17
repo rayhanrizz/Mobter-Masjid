@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3b5998"
+    android:orientation="vertical"
+    tools:context=".form_sholat">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Jadwal Sholat"
+        android:textColor="#FFF"
+        android:textSize="24dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/jadwal_shubuh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Jadwal Shubuh"
+        android:padding="10dp"
+        android:background="@drawable/edittext"
+        />
+    <EditText
+        android:id="@+id/jadwal_dhuhur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Jadwal Dhuhur"
+        android:padding="10dp"
+        android:background="@drawable/edittext"
+        />
+    <EditText
+        android:id="@+id/jadwal_ashar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Jadwal Ashar"
+        android:padding="10dp"
+        android:background="@drawable/edittext"
+        />
+    <EditText
+        android:id="@+id/jadwal_maghrib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Jadwal Maghrib"
+        android:padding="10dp"
+        android:background="@drawable/edittext"
+        />
+    <EditText
+        android:id="@+id/jadwal_isya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Jadwal Isya'"
+        android:padding="10dp"
+        android:background="@drawable/edittext"
+        />
+    <EditText
+        android:id="@+id/jadwal_dhuha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Jadwal Dhuha"
+        android:padding="10dp"
+        android:background="@drawable/edittext"
+        />
+    <Button
+        android:id="@+id/update_sholat"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:padding="10dp"
+        android:text="Update"
+        android:background="@drawable/btn"
+    />
+    <Button
+        android:id="@+id/kembali_sholat"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:padding="10dp"
+        android:text="Kembali"
+        android:background="@drawable/btn"
+        />
+
+</LinearLayout>

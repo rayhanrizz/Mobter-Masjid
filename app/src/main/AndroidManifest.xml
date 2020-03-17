@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fan">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".form_tagline"></activity>
+        <activity android:name=".form_slideshow" />
+        <activity android:name=".form_pengumuman" />
+        <activity android:name=".form_marquee" />
+        <activity android:name=".form_sholat" />
+        <activity android:name=".form_identitas" />
+        <activity android:name=".activity_tagline" />
+        <activity android:name=".activity_slideshow" />
+        <activity android:name=".activity_pengumuman" />
+        <activity android:name=".activity_marquee" />
+        <activity android:name=".identitas" />
+        <activity android:name=".menu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
